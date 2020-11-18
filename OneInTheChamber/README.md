@@ -1,4 +1,4 @@
-Juggernaut Gamemode
+One In The Chamber Gamemode
 ======
 ## Description
 Every player has a Com15 and a USP. The Com15 has a single bullet, but its ammo increases on kill. The USP has infinite ammo, but has an extremely short, configurable, kill range. Each player is playing to get a specific amount of points, or be the last one standing.
