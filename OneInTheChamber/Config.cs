@@ -14,6 +14,6 @@ namespace OneInTheChamber
 		public float UspKillRange { get; set; } = 4f;
 		public bool OnlyUseSurface { get; set; } = true;
 		public bool DisableDecontamination { get; set; } = false;
-		public bool InstantDecontamination { get; set; } = true;
+		public bool InstantDecontamination { get; set; } = false;
 	}
 }
