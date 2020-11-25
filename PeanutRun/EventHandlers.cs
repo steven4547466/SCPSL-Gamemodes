@@ -1,7 +1,6 @@
 using Exiled.API.Enums;
 using Exiled.API.Features;
 using Exiled.Events.EventArgs;
-using MEC;
 
 namespace PeanutRun
 {
@@ -15,7 +14,7 @@ namespace PeanutRun
             if (!plugin.IsEnabled)
                 return;
 
-            Timing.CallDelayed(1f, () => plugin.Methods.SetupPlayers());
+            plugin.Methods.SetupPlayers();
         }
 
         public void OnRoundEnd(RoundEndedEventArgs ev)

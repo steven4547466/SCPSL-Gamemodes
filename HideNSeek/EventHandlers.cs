@@ -15,7 +15,7 @@ namespace HideNSeek
                 return;
 
             plugin.IsRunning = true;
-            Timing.CallDelayed(1f, () => plugin.Methods.SetupPlayers(plugin.ScpRole));
+            plugin.Methods.SetupPlayers(plugin.ScpRole);
 
             if (plugin.Config.DisableLights)
                 Timing.RunCoroutine(plugin.Methods.Blackout(), "hidenseekblackout");
